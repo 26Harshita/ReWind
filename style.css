@@ -74,7 +74,7 @@ button.ghost {
 }
 
 form {
-	background-color: #ADD8E6;
+	background-color: #0a5f7e;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -165,7 +165,7 @@ input {
 }
 
 .overlay {
-	background: #FF416C;
+	background: #851725;
 	background-size: cover;
 	background-position: 0 0;
 	color: #FFFFFF;
