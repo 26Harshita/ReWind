@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+:root{
+    --white: #ffffff;
+    --dark: #2B2B2B;
+    --purple: #AA6DFF;
+    --darkpurple: rgb(131, 87, 192);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+a{
+    color: var(--purple);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+/*
+******* NAVBAR *******
+*/
+
+/* .logo-color{
+    color: green;
+} */
+
+.navbar {
+    background-color: var(--dark);
+    height: 80px
+}
+
+.nav-item{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+}
+
+.navbar-brand{
+    font-size: 40px;
+    font-family: 'Zen Dots', cursive;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    color: var(--darkpurple)
+}
+
+/* .nav-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+} */
+
+
+/*
+******* CAROUSEL *******
+*/
+
+
+.carouselImg {
+    height: 100vh;
+    object-fit: cover;
+    overflow-y: hidden;
+    background-repeat: no-repeat;
+    background-position: center;  
+    background: rgba(0, 0, 0, 0.5);    
+}
+
+.heroCarouselBtn {
+    background-color: #00808033;
+    color: #fff;
+    font-weight: 200;
+    padding: 10px;
+    border: 0;
+}
+
+.heroCarouselBtn:hover{
+    cursor: pointer;
+    background-color: #00808066;
+}
+
+.heroTitle {
+    text-align: left;
+}
+
+.product {
+    color: var(--purple);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tagline{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.tagline, .product {
+    background-color: #00000055;
+    padding: 20px;
+}
+
+.carousel-caption {
+    position: fixed;
+    right: 25%;
+    bottom: 70px;
+    left: 25%;
+    z-index: 10;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+
+/*
+******* LINK TO *******
+*/
+
+
+.linkTo {
+    background-color: var(--dark);
+    color: #fff;
+    border: 0px;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    top: -70px;
+    font-size: 20px;
+}
+
+.linkTo:hover {
+    background-color: var(--purple);
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.linkTo a {
+    color: var(--white);
+}
+
+
+
