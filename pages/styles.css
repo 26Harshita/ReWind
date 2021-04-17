@@ -109,6 +109,7 @@ a:hover {
 .product {
     color: var(--darkestpurple);
     font-family: 'Poppins', sans-serif;
+    font-weight: 800;
 }
 
 .tagline {
