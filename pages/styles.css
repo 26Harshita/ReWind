@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Josefin+Sans&family=Karla:wght@800&family=Nunito:wght@600&family=Poppins&family=Zen+Dots&display=swap');
 
-:root{
+:root {
     --white: #ffffff;
     --dark: #2B2B2B;
     --light: rgba(43, 43, 43, 0.075);
@@ -10,20 +10,20 @@
     --lightpurple: rgba(201, 187, 221, 0.493);
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0px;
 }
 
-a{
+a {
     color: var(--purple);
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
 }
 
@@ -51,7 +51,7 @@ a:hover{
     color: var(--darkpurple)
 }
 
-.nav-item{
+.nav-item {
     display: flex;
     font-family: 'Work Sans', sans-serif;
     font-size: 18px;
@@ -59,13 +59,13 @@ a:hover{
     font-weight: bold;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 40px;
     font-family: 'Zen Dots', cursive;
 }
 
 
-.mainnav{
+.mainnav {
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -85,8 +85,8 @@ a:hover{
     object-fit: cover;
     overflow-y: hidden;
     background-repeat: no-repeat;
-    background-position: center;  
-    background: rgba(0, 0, 0, 0.5);    
+    background-position: center;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .heroCarouselBtn {
@@ -97,7 +97,7 @@ a:hover{
     border: 0;
 }
 
-.heroCarouselBtn:hover{
+.heroCarouselBtn:hover {
     cursor: pointer;
     background-color: #00808066;
 }
@@ -111,13 +111,14 @@ a:hover{
     font-family: 'Poppins', sans-serif;
 }
 
-.tagline{
+.tagline {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     color: #DFF0D8;
 }
 
-.tagline, .product {
+.tagline,
+.product {
     background-color: #00000055;
     padding: 40px;
 }
@@ -133,9 +134,9 @@ a:hover{
     color: #fff;
 }
 
-.main-head1{
+.main-head1 {
     font-family: 'Poppins',
-    sans-serif;
+        sans-serif;
     font-size: 40px
 }
 
@@ -161,7 +162,7 @@ a:hover{
     cursor: pointer;
     transition: 0.5s;
     transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
 }
 
 .linkTo a {
@@ -172,18 +173,18 @@ a:hover{
 }
 
 
-.buttons{
+.buttons {
     background: var(--lightpurple);
 }
 
-.headline{
+.headline {
     position: relative;
     padding: 20px 80px;
     height: 250px;
     margin-bottom: 100px;
 }
 
-.headline-inner{
+.headline-inner {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -191,7 +192,7 @@ a:hover{
     color: var(--darkestpurple)
 }
 
-.headline-wrapper{
+.headline-wrapper {
     background: var(--light)
 }
 
@@ -212,14 +213,14 @@ a:hover{
 /* ############## */
 
 .bgBlueImg {
-  color: white;
-  background-image: url(/images/last.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  height: 60vh;
-  padding-top: 15vh;
+    color: white;
+    background-image: url(/images/last.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    padding-top: 15vh;
 }
 
 .container-fluid {
@@ -231,7 +232,7 @@ a:hover{
     /* margin-bottom: 100px; */
 }
 
-.lightpurple{
+.lightpurple {
     height: 100px;
     background: var(--lightpurple)
 }
@@ -254,21 +255,21 @@ a:hover{
 /* ############ */
 
 footer {
-    width:100%;
+    width: 100%;
     padding: 2rem;
     background-color: var(--dark);
 }
 
 .social-media a {
     text-decoration: none;
-    color:#ddd;
+    color: #ddd;
     padding: 10px;
     font-size: 25px;
 }
 
 .social-media a:hover {
     text-decoration: none;
-    color:#fff;
+    color: #fff;
     background-color: var(--dark);
     border-radius: 20%;
     padding: 10px;
@@ -294,41 +295,41 @@ footer {
 
 .footer_img {
     margin-top: 50px;
-    width :100px;
+    width: 100px;
     margin-bottom: 20px;
     text-align: center;
 }
 
 .descrp {
-    text-align: justify; 
+    text-align: justify;
     color: #ddd;
     font-weight: 200;
     padding-right: 40px;
 }
 
 
-#about h4{
+#about h4 {
     font-family: 'Nunito', sans-serif;
     font-size: 35px;
     color: var(--dark)
 }
 
 
-.para{
+.para {
     font-family: 'Dosis', sans-serif;
     font-size: 20px;
     color: var(--darkpurple);
     letter-spacing: 1.5px
 }
 
-#quick-info h2{
+#quick-info h2 {
     font-family: 'Poppins', sans-serif;
 }
 
 
 
 /*
-******* MEMORIES *******
+******* PAGES *******
 */
 
 #memories-headline .headline {
@@ -336,14 +337,40 @@ footer {
     padding: 20px 80px;
     height: 250px;
     margin-bottom: 0px;
+    background-image: url(/images/memories.jpg);
 }
 
-.form-wrapper{
+#education-headline .headline {
+    position: relative;
+    padding: 20px 80px;
+    height: 250px;
+    margin-bottom: 0px;
+    background-image: url(/images/memories.jpg);
+}
+
+#art-headline .headline {
+    position: relative;
+    padding: 20px 80px;
+    height: 250px;
+    margin-bottom: 0px;
+    background-image: url(/images/memories.jpg);
+}
+
+.form-wrapper {
     background: var(--lightpurple);
     height: 500px;
 }
 
-.upload{
+.form-wrapper h3 {
+    position: relative;
+    font-family: 'Poppins',
+        sans-serif;
+    color: var(--dark);
+    text-align: left;
+    line-height: 50px;
+}
+
+.upload {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -351,7 +378,7 @@ footer {
     padding: 3%;
 }
 
-.upload-file{
+.upload-file {
     display: flex;
     margin: 20px 0px;
     /* background:  */
@@ -418,7 +445,7 @@ input:focus+label {
 }
 
 
-.upload-bg{
+.upload-bg {
     position: relative;
     /* background: var(--light); */
     height: 500px;
@@ -429,20 +456,25 @@ input:focus+label {
     right: 50px;
 }
 
-.upload-column{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-content: center;
-margin-left: 5%;
-padding-top: 5%
+.upload-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 5%;
+    padding-top: 2%
 }
 
-textarea{
+textarea {
     max-width: 50%;
     height: 300px;
 }
 
+.demo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
 
 .demo-container {
     height: 100%;
@@ -455,22 +487,48 @@ textarea{
     font-family: Helvetica;
     letter-spacing: 0.4em;
     font-weight: 600;
-    font-size: 100px;
+    font-size: 50px;
     text-align: center;
-    color: var(--dark);
+    color: var(--lightpurple);
     cursor: pointer;
-    max-width: 600px;
+    max-width: 400px;
     width: 100%;
     outline: 3px solid;
     outline-color: rgba(100, 66, 146, 0.5);
     outline-offset: 30px;
     transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
     background: var(--dark);
-    padding: 100px;
+    padding: 40px;
 }
 
 .animated-word:hover {
     color: var(--purple);
     outline-color: rgba(100, 66, 146, 0);
     outline-offset: 300px;
+}
+
+
+/* .middle{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row
+
+} */
+
+.middle-item {
+    position: relative;
+    left: 58%;
+    bottom: 80px;
+    height: 370px;
+    width: 500px;
+    /* top: 0px */
+}
+
+.middle-item-edu {
+    position: relative;
+    left: 60%;
+    bottom: 110px;
+    height: 430px;
+    width: 450px;
+    /* top: 0px */
 }
