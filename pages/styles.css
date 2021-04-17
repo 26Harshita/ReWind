@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Karla:wght@800&family=Nunito:wght@600&family=Poppins&family=Zen+Dots&display=swap');
 
 :root{
     --white: #ffffff;
@@ -6,6 +6,7 @@
     --light: rgba(43, 43, 43, 0.075);
     --purple: #AA6DFF;
     --darkpurple: rgb(131, 87, 192);
+    --darkestpurple: rgb(100, 66, 146);
     --lightpurple: rgba(201, 187, 221, 0.493);
 }
 
@@ -36,9 +37,13 @@ a:hover{
 } */
 
 .navbar {
+    display: flex;
     background-color: var(--dark);
     height: 80px;
-    padding: 0%
+    padding: 2%;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between
 }
 
 .nav-item:hover {
@@ -47,8 +52,11 @@ a:hover{
 }
 
 .nav-item{
+    display: flex;
     font-family: 'Work Sans', sans-serif;
     font-size: 18px;
+    margin: 0px 20px;
+    font-weight: bold;
 }
 
 .navbar-brand{
@@ -56,26 +64,14 @@ a:hover{
     font-family: 'Zen Dots', cursive;
 }
 
-.navbar-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-    background-color: var(--dark)
-}
 
-
-/* .nav-flex{
+.mainnav{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-} */
+    align-content: center;
+    justify-content: flex-end
+}
+
 
 
 
@@ -162,6 +158,9 @@ a:hover{
 
 .linkTo a {
     color: var(--white);
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    font-weight: 800
 }
 
 
@@ -171,8 +170,8 @@ a:hover{
 
 .headline{
     position: relative;
-    padding: 20px 40px;
-    height: 200px;
+    padding: 20px 80px;
+    height: 250px;
     margin-bottom: 30px;
 }
 
@@ -180,7 +179,8 @@ a:hover{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    left: 4%
+    font-family: 'Poppins', sans-serif;
+    color: var(--darkestpurple)
 }
 
 .headline-wrapper{
@@ -282,4 +282,23 @@ footer {
     color: #ddd;
     font-weight: 200;
     padding-right: 40px;
+}
+
+
+#about h4{
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    color: var(--dark)
+}
+
+
+.para{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    color: var(--darkpurple);
+    letter-spacing: 1.5px
+}
+
+#quick-info h2{
+    font-family: 'Poppins', sans-serif;
 }
