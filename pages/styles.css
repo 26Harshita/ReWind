@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Karla:wght@800&family=Nunito:wght@600&family=Poppins&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Josefin+Sans&family=Karla:wght@800&family=Nunito:wght@600&family=Poppins&family=Zen+Dots&display=swap');
 
 :root{
     --white: #ffffff;
@@ -107,17 +107,19 @@ a:hover{
 }
 
 .product {
-    color: var(--purple);
-    font-family: 'Montserrat', sans-serif;
+    color: var(--darkestpurple);
+    font-family: 'Poppins', sans-serif;
 }
 
 .tagline{
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #DFF0D8;
 }
 
 .tagline, .product {
     background-color: #00000055;
-    padding: 20px;
+    padding: 40px;
 }
 
 .carousel-caption {
@@ -129,6 +131,12 @@ a:hover{
     padding-top: 10px;
     padding-bottom: 20px;
     color: #fff;
+}
+
+.main-head1{
+    font-family: 'Poppins',
+    sans-serif;
+    font-size: 40px
 }
 
 
@@ -172,7 +180,7 @@ a:hover{
     position: relative;
     padding: 20px 80px;
     height: 250px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 .headline-inner{
@@ -212,6 +220,20 @@ a:hover{
   background-size: cover;
   height: 60vh;
   padding-top: 15vh;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    /* margin-bottom: 100px; */
+}
+
+.lightpurple{
+    height: 100px;
+    background: var(--lightpurple)
 }
 
 .parallaxBtn {
@@ -301,4 +323,122 @@ footer {
 
 #quick-info h2{
     font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*
+******* MEMORIES *******
+*/
+
+#memories-headline .headline {
+    position: relative;
+    padding: 20px 80px;
+    height: 250px;
+    margin-bottom: 0px;
+}
+
+.form-wrapper{
+    background: var(--lightpurple);
+    height: 500px;
+}
+
+.upload{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 50%;
+    padding: 3%;
+}
+
+.upload-file{
+    display: flex;
+    margin: 20px 0px;
+    /* background:  */
+}
+
+
+
+.upload-comment {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.upload-submit {
+    display: flex;
+    margin: 20px 0px;
+}
+
+
+
+
+.file {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+    margin: 0px 10px;
+}
+
+.file-input label {
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background: linear-gradient(40deg, var(--dark), var(--purple));
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform .2s ease-out;
+    margin: 0px 10px;
+}
+
+.file-name {
+    position: absolute;
+    bottom: -35px;
+    left: 10px;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+input:hover+label,
+input:focus+label {
+    transform: scale(1.02);
+}
+
+/* Adding an outline to the label on focus */
+input:focus+label {
+    outline: 1px solid #000;
+    outline: -webkit-focus-ring-color auto 2px;
+}
+
+
+.upload-bg{
+    position: relative;
+    /* background: var(--light); */
+    height: 500px;
+    max-width: 80%;
+    padding: 10% 15%;
+    /* top: 50px; */
+    left: 50px;
+    right: 50px;
+}
+
+.upload-column{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+margin-left: 5%;
+padding-top: 5%
+}
+
+textarea{
+    max-width: 50%;
+    height: 300px;
 }
