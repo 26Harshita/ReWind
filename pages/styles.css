@@ -3,8 +3,10 @@
 :root{
     --white: #ffffff;
     --dark: #2B2B2B;
+    --light: rgba(43, 43, 43, 0.075);
     --purple: #AA6DFF;
     --darkpurple: rgb(131, 87, 192);
+    --lightpurple: rgba(201, 187, 221, 0.493);
 }
 
 *{
@@ -35,7 +37,13 @@ a:hover{
 
 .navbar {
     background-color: var(--dark);
-    height: 80px
+    height: 80px;
+    padding: 0%
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    color: var(--darkpurple)
 }
 
 .nav-item{
@@ -48,16 +56,27 @@ a:hover{
     font-family: 'Zen Dots', cursive;
 }
 
-.nav-item:hover {
-    cursor: pointer;
-    color: var(--darkpurple)
+.navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: var(--dark)
 }
+
 
 /* .nav-flex{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 } */
+
 
 
 /*
@@ -107,9 +126,9 @@ a:hover{
 
 .carousel-caption {
     position: fixed;
-    right: 25%;
+    right: 15%;
     bottom: 70px;
-    left: 25%;
+    left: 15%;
     z-index: 10;
     padding-top: 10px;
     padding-bottom: 20px;
@@ -146,4 +165,121 @@ a:hover{
 }
 
 
+.buttons{
+    background: var(--lightpurple);
+}
 
+.headline{
+    position: relative;
+    padding: 20px 40px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.headline-inner{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 4%
+}
+
+.headline-wrapper{
+    background: var(--light)
+}
+
+
+
+
+/* ########### */
+/* ## ABOUT ## */
+/* ########### */
+.aboutImg {
+    width: 100%;
+}
+
+
+
+/* ############## */
+/* ## PARALLAX ## */
+/* ############## */
+
+.bgBlueImg {
+  color: white;
+  background-image: url(/images/last.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  padding-top: 15vh;
+}
+
+.parallaxBtn {
+    background-color: #00808033;
+    border: 0;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.parallaxBtn:hover {
+    background-color: #00808066;
+    cursor: pointer;
+}
+
+
+/* ############ */
+/* ## FOOTER ## */
+/* ############ */
+
+footer {
+    width:100%;
+    padding: 2rem;
+    background-color: var(--dark);
+}
+
+.social-media a {
+    text-decoration: none;
+    color:#ddd;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.social-media a:hover {
+    text-decoration: none;
+    color:#fff;
+    background-color: var(--dark);
+    border-radius: 20%;
+    padding: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    line-height: 2rem;
+    color: #ccc;
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+.footer-links h5 {
+    color: #ddd;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.footer_img {
+    margin-top: 50px;
+    width :100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.descrp {
+    text-align: justify; 
+    color: #ddd;
+    font-weight: 200;
+    padding-right: 40px;
+}
