@@ -510,12 +510,6 @@ textarea {
 }
 
 
-/* .middle{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row
-
-} */
 
 .middle-item {
     position: relative;
@@ -533,4 +527,8 @@ textarea {
     height: 430px;
     width: 450px;
     /* top: 0px */
+}
+
+.file:focus {
+    border: none;
 }
