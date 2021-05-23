@@ -8,7 +8,7 @@
 
 2.Adjust the model according to the needs.
 
-3.In order to increse the size or changing the orientation can be done by zoom in or out (depends on the user).
+3.In order to increase the size or changing the orientation can be done by zoom in or out (depends on the user).
 
 #SETUP
 
